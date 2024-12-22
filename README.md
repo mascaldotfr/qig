@@ -9,9 +9,9 @@ colored rectangle of a random size to ensure uniqueness.
 
 - Uses multi processing for even faster image generation
 - Images and their filenames are unique
-- Support for many format : "jpeg", "jpg", "png", "gif", "webp", "heic",
+- Support for many formats : "jpeg", "jpg", "png", "gif", "webp", "heic",
   "heif", "avif", "bmp", "pdf", "tiff"
-- Random formats and resolution are available, the top left rectangle will be
+- Random formats and resolutions are available, the top left rectangle will be
   transparent if the format support transparence.
 
 ## Usage
@@ -32,7 +32,7 @@ For more informations see `python3 qig.py -h`
 
 ### Limits
 
-- The number of images generated in a single batch is 100000 to avoid excessive
+- The maximum number of images generated in a single batch is 100000 to avoid excessive
   overhead or resource exhaustion. This can be overriden easily by modifying
   `qig.py`.
-- You can't generate pictures with size smaller by 32 pixels (height and width)
+- You can't generate pictures with size smaller than 32 pixels (height and width)
