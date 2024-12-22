@@ -16,7 +16,7 @@ colored rectangle of a random size to ensure uniqueness.
 
 ## Usage
 
-*For convenience, some independant binaries are available in Github's release*
+*For convenience, some independant binaries are available in [Github's release](https://github.com/mascaldotfr/qig/releases)*
 
 ```
 pip install -r requirements.txt
